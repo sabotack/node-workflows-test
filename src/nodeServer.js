@@ -1,6 +1,8 @@
 import http from 'http';
 import fs from 'fs';
 import path from 'path';
+
+export {getContentType};
 //import https from 'https';
 
 //Google authentication stuff

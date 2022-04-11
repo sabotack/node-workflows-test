@@ -5,7 +5,7 @@
   "main": "src/nodeServer.js",
   "type": "module",
   "scripts": {
-    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest --detectOpenHandles --coverage"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "repository": {
     "type": "git",
